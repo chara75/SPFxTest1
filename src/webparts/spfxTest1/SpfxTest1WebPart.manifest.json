@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "ec9458a8-6e3e-4e49-86a1-caa12f7e0300",
+  "alias": "SpfxTest1WebPart",
+  "componentType": "WebPart",
+  "version": "*", // The "*" signifies that the version should be taken from the package.json
+  "manifestVersion": 2,
+
+  /**
+   * This property should only be set to true if it is certain that the webpart does not
+   *  allow arbitrary scripts to be called
+   */
+  "safeWithCustomScriptDisabled": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "ec9458a8-6e3e-4e49-86a1-caa12f7e0300",
+    "group": { "default": "Under Development" },
+    "title": { "default": "SPFX Test 1" },
+    "description": { "default": "Testing Hello World Client App" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "SPFX Test 1"
+    }
+  }]
+}

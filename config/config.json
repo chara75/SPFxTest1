@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/spfxTest1/SpfxTest1WebPart.js",
+      "manifest": "./src/webparts/spfxTest1/SpfxTest1WebPart.manifest.json",
+      "outputPath": "./dist/spfx-test-1.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "spfxTest1Strings": "webparts/spfxTest1/loc/{locale}.js"
+  }
+}
